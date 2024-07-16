@@ -20,7 +20,7 @@ spec:
         - name: nginx
           # imagePullPolicy: Always
           # image: somedockeridblahblahblah/nginx:v.0.1.0
-          image: nginx:1.23.3
+          image: nginx #:1.23.3
           ports:
             - containerPort: 80
       # imagePullSecrets:
